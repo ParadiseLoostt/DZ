@@ -65,7 +65,8 @@ function debug($data)
     echo '</pre>';
 }
 
-$randomNum = rand(); 
+$randomNum = rand(0, 100); 
 
-echo "Случайное число:(php) " . $randomNum;
+echo "Случайное число: " . $randomNum;
 ?>
+

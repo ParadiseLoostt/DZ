@@ -6,9 +6,9 @@ document.querySelector('footer').style.color = 'red';
 // fetch('/core/handler.php')
 
 function generateRandomNumber() {
-    return Math.floor(Math.random() * 10000001); 
-  }
-  
-  let randomNum = generateRandomNumber();
-  document.getElementById("randomNumber").innerHTML = randomNum;
+  return Math.floor(Math.random() * 101); 
+
+let randomNum = generateRandomNumber();
+console.log(randomNum); 
+}
   
